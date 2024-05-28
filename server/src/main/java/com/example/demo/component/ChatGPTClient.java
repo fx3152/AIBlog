@@ -23,7 +23,7 @@ public class ChatGPTClient {
 //        OkHttpClient client = new OkHttpClient();
 
         String prompt = "My name is";
-        String apiKey = "sk-74Qx7ImgxqoOmbMlCZsKXV3mc2BJt4ULW1ikkefB3ec22VEs";
+        String apiKey = "************************************"; //输入自己的key
 
         MediaType mediaType = MediaType.parse("application/json");
 

@@ -47,7 +47,7 @@ public class WebSocketServer {
     public String chatMessgae(String message, Session session, @PathParam("username") String username) throws IOException {
         log.info("服务端收到用户username={}的消息:{}", username, message);
 
-        String apiKey = "sk-74Qx7ImgxqoOmbMlCZsKXV3mc2BJt4ULW1ikkefB3ec22VEs";
+        String apiKey = "*****************"; //输入自己的key
 
         MediaType mediaType = MediaType.parse("application/json");
 
